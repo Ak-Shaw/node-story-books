@@ -1,3 +1,5 @@
+YouTube: [https://www.youtube.com/watch?v=SBvmnHTQIPY&list=RDCMUC29ju8bIPH5as8OGnQzwJyA&index=2](https://www.youtube.com/watch?v=SBvmnHTQIPY&list=RDCMUC29ju8bIPH5as8OGnQzwJyA&index=2)
+
 ### Initial Setup 1
 
 ```bash
