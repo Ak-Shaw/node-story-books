@@ -86,7 +86,7 @@ Time to setup our template engine
   - Import `express-handlebars`
   - Add the `express-handlebars` middleware
 - Create `./views/layouts/main.hbs` and also create a `login.hbs` in the same directory
-  - In `main.hbs` add some _boiler plate HTML_.
+  - In `main.hbs`, add some _boiler plate HTML_.
     - Add stylesheet for **materialize** using _CDN_
     - Add stylesheet for **font-awesome** using _CDN_
     - Add script for **materialize** using _CDN_
@@ -97,7 +97,7 @@ Time to setup our template engine
         {{{body}}}
       </div>
       ```
-    - In `login.hbs`, copy-paste the contents of `main.hbs` and add the following content as child to the body:
+    - In `login.hbs`, copy-paste the contents of `main.hbs` and having the following content as child to the body:
       ```hbs
       <div class="container login-container">
         <div class="card">
@@ -278,7 +278,7 @@ Time to create a view for stories:
   - Add necessary code for rendering all stories
 - Add a GET route in `stories.js` for fetching the stories
 - Add a `truncate` helper in `hbs.js`. This helper is supposed to be used to truncate the story body on the card.
-- Add a `striptTags` helper in `hbs.js`. This helper is supposed to replace any HTML tag passed on as a string with ''
+- Add a `stripTags` helper in `hbs.js`. This helper is supposed to replace any HTML tag passed on as a string with "" (empty string)
 - Register these helper functions in `app.js` by destructing
 - Add the helpers in the Handlebars
 - In `index.hbs`:
